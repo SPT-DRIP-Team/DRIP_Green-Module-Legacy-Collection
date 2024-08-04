@@ -1,0 +1,25 @@
+{
+    // This will get injected into all of the locales as the item name.
+    "name": "5.11 Tactical TacTec plate carrier (Olive Drab)",
+	"type": "RETEXTURE",
+    "shortName": "TacTec",
+    "description": "A plate carrier with armor plates made of polyethylene (Russian GOST class 5 protection) and a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical. Olive Drab version.",
+
+    "baseItemID": "5b44cad286f77402a54ae7e5",
+    "traderId": "moron",
+    "bundlePath": "GEAR.bundle",
+    "gearDependencies": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+    ],
+    "childAssorts": {
+        "Front_plate": "656fae5f7c2d57afe200c0d7",
+        "Back_plate": "656fae5f7c2d57afe200c0d7",
+		"Soft_armor_front": "6575bc88c6700bd6b40e8a57",
+        "Soft_armor_back": "6575bca0dc9932aed601c5d7"
+    },
+    "copyAssort": true,
+    "addToBots": true,
+    "weightingMult": 1.0,
+}

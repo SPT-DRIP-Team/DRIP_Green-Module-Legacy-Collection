@@ -1,0 +1,19 @@
+{
+    // This will get injected into all of the locales as the item name.
+    "name": "5.11 Tactical Hexgrid plate carrier (Olive Drab)",
+	"type": "RETEXTURE",
+    "shortName": "Slick",
+    "description": "The Hexgrid plate carrier with smooth ergonomic access that allows comfortable movement, intended for use with chest rigs. Manufactured by 5.11 Tactical. Olive Drab version.",
+
+    "baseItemID": "5fd4c474dd870108a754b241",
+    "traderId": "moron",
+    "bundlePath": "GEAR.bundle",
+    "gearDependencies": [
+        "shaders",
+		"cubemaps",
+		"assets/commonassets/physics/physicsmaterials.bundle"
+    ],
+    "copyAssort": true,
+    "addToBots": true,
+    "weightingMult": 1.0,
+}

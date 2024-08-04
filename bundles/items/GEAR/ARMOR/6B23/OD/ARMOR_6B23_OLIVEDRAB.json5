@@ -1,0 +1,31 @@
+{
+    // This will get injected into all of the locales as the item name.
+    "name": "6B23-1 body armor (Olive Drab)",
+	  "type": "RETEXTURE",
+    "shortName": "6B23-1",
+    "description": "The \"Zabralo-8\" main armored vest for personnel of combat units of the ground forces, airborne troops, marines, etc. The vest is designed to protect vital organs from being hit by firearms, shell fragments, mines, grenades, and cold weapons, reducing the severity of armor contusion injury when performing combat missions. Olive Drab version.",
+
+    "baseItemID": "5c0e5bab86f77461f55ed1f3",
+    "traderId": "moron",
+    "bundlePath": "GEAR.bundle",
+    "gearDependencies": [
+		    "assets/content/characters/character/vest/ar_6b23_mesh",
+		    "assets/commonassets/physics/physicsmaterials.bundle",
+		    "shaders",
+		    "cubemaps",
+		    "assets/content/items/equipment/armor_6b23/item_equipment_armor_6b23_gloss_nrm"
+    ],
+    "childAssorts": {
+        "Front_plate": "654a4dea7c17dec2f50cc86a",
+		    "Soft_armor_front": "6571b27a6d84a2b8b6007f92",
+        "Soft_armor_back": "6571baa74cb80d995d0a1490",
+        "Soft_armor_left": "6571baac6d84a2b8b6007fa3",
+        "soft_armor_right": "6571bab0f41985531a038091",
+        "Collar": "6571babb4076795e5e07383f",
+        "Groin": "6571bac34076795e5e073843",
+        "Groin_back": "6571babf4cb80d995d0a1494"
+    },
+    "copyAssort": true,
+    "addToBots": true,
+    "weightingMult": 1.0,
+}
